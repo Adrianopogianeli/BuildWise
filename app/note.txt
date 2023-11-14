@@ -1,0 +1,4 @@
+# commands to build docker container
+
+docker build -t flask-book-app .
+docker run -p 8080:8080 flask-book-app
